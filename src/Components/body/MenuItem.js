@@ -5,13 +5,13 @@ const MenuItem = props => {
     return(
         <div>
             <Card style={{margin: "10px"}}>
-                <CardBody>
+                <CardBody style={{cursor: "pointer"}} onClick={props.DishSelect}>
                     <CardImg width= "100%" 
                     alt={props.dish.name} 
                     src={props.dish.image} 
                     style={{opacity: "0.5"}}/>
                     <CardImgOverlay>
-                        <CardTitle style={{cursor: "pointer"}} onClick={props.DishSelect} >{props.dish.name}</CardTitle>
+                        <CardTitle style={{cursor: "pointer", fontWeight:"bold"}} onClick={props.DishSelect} >{props.dish.name}</CardTitle>
                     </CardImgOverlay>
                 </CardBody>
             </Card>

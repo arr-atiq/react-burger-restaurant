@@ -1,7 +1,7 @@
 const DISHES = [
     {
         id: 0,
-        name: 'Ginger Burger',
+        name: 'Ginger Burger Click Me',
         image: 'assets/images/0burger.jpg',
         category: 'meal',
         label: 'Hot',
@@ -47,7 +47,7 @@ const DISHES = [
     },
     {
         id: 1,
-        name: 'BBQ Chicken Pizza',
+        name: 'BBQ Chicken Pizza Click Me',
         image: 'assets/images/1pizza.jpg',
         category: 'meal',
         label: '',
@@ -93,7 +93,7 @@ const DISHES = [
     },
     {
         id: 2,
-        name: 'French Fries',
+        name: 'French Fries Click Me',
         image: 'assets/images/2fries.jpg',
         category: 'appetizer',
         label: 'New',
@@ -139,7 +139,7 @@ const DISHES = [
     },
     {
         id: 3,
-        name: 'Cheese Cake',
+        name: 'Cheese Cake Click Me',
         image: 'assets/images/3cake.jpg',
         category: 'dessert',
         label: '',
